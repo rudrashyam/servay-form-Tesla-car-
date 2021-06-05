@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A sarvay form</title>
+</head>
+
+<body >
+    <h1 id=" titel"> Tesla Model Purchase </h1>
+    <p id="description">We'd love to konw what you think </p>
+     <img src="Tesla.jpg" alt="Tesla cars" style="height:auto; width:100%; border-radius: 20px;">
+    <fieldset style=" border-radius: 20px;">
+        <legend style=" text-align:center; font-size: 30px;"> <b> Fill all the details given bellow to complete your Tesla order :</b>  </legend> 
+   
+    <br>
+   
+
+        <form action="#" id="servey-form">
+    
+            <label for="name" id="name-label"> Name :</label>
+            <input type="text" id="name" placeholder=" type your name">
+            <br>
+            <label for="email" id="email-lable"> Email :</label>
+            <input type="email" id="email" placeholder="type your email">
+            <br>
+            <label for="number" id="number-label"  style="margin:10px;"> Age : </label>
+            <input type="number" id="number" placeholder="18" min="10" max="100" >
+            <br>
+            <br>
+            <label for="dropdown"> Select model : </label>
+    
+    
+            <select id="dropdown">
+                <option value="Model S"> Model S</option>
+                <option value="Model 3">Model 3</option>
+                <option value="Model y">Model y</option>
+                <option value="Model x"S>Model x</option>
+                <option value="Cyber Track"> Cyber Track</option>
+    
+    
+            </select>
+    
+            <br>
+            <br>
+        <label for="mobel_color" id="model color"> <b>Model color :</b> </label>
+      <br>
+      <br>
+          <input type="radio" id="model"   id="black" name="color" value="black"  >
+          <label for="mobel_color" id="model color"> Black</label>
+          <br>
+          <input type="radio" id="model"  id="white"  name="color" value="white" >
+          <label for="mobel_color" id="model color" > White</label>
+          <br>
+          <input type="radio" id="model" id="yellow"  name="color" value="yellow"   >
+          <label for="mobel_color" id="model color"  >yellow</label>
+    
+    <br>
+    <br>
+    <label for="features"> <b>Add features:</b></label>
+ <br>
+
+  <input id="checkbox" type="checkbox" name="features" value="autopilot">
+  <label for="checkbox"> Full Self-driving (Autopilot) - $10,000</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="dual_motor">
+  <label for="checkbox"> Dual Motor (All wheel drive) - $9,000</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="battery">
+  <label for="checkbox"> Performance Plus (Enhanced battery) - $7,500</label>          
+<br>
+<br>
+<fieldset style=" border-radius: 20px;">
+    <legend id="textarea" style=" text-align:center;"> <b>  Additional instructions :</b> </legend>
+    
+    <textarea name="instructions" id="textarea" cols="60.5" rows="3"></textarea>
+</fieldset>
+<br>
+<div >
+   <center><input type="submit" id="submit" value="place Order" class="submit-button" style="background-color: brown; color: white; border: 2px solid black; padding: 15px 90px; border-radius: 20px; "> </center> 
+
+</div>
+
+        </fieldset>
+    <footer style=" display:block; text-align: center; background-color: black; color: white; border-radius: 20px;"> &copy; Rudrashyamcode.net //   Coding is fun !! //</footer>
+   
+</body>
+
+</html>
